@@ -1,0 +1,7 @@
+// Salin file ini menjadi config.js, lalu isi dari Supabase > Project Settings > API.
+// Gunakan Project URL dan publishable key (atau anon public key lama).
+// JANGAN PERNAH menaruh service_role key di website.
+window.COOLTECH_CONFIG = {
+  url: 'https://PROJECT-ID.supabase.co',
+  anonKey: 'ISI_PUBLISHABLE_ATAU_ANON_PUBLIC_KEY_DI_SINI'
+};
